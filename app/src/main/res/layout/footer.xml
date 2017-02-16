@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bottom_loading"
+    android:layout_width="fill_parent"
+    android:layout_height="72dip"
+    android:clickable="false"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <com.ding.widget.LoadingView
+        android:id="@+id/foot_progress"
+        android:layout_width="32dip"
+        android:layout_height="32dip"
+        android:background="@drawable/loading" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:gravity="left|center"
+        android:padding="3dip"
+        android:text="正在加载..."
+        android:textColor="#777777"
+        android:textSize="14sp" />
+
+</LinearLayout>
